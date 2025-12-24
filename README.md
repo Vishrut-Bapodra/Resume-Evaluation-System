@@ -20,6 +20,15 @@ This project provides a simple web-based interface where users can upload a job 
 
 ---
 
+## 🔄 Application Flow
+- Upload a job description
+- Upload one or more resumes
+- Text is extracted from documents
+- Resume content is evaluated against the job description
+- Results are displayed with scores and explanations
+
+---
+
 ## 🛠️ Built With
 
 | Technology | Description |
@@ -76,29 +85,3 @@ Open your browser at:
 arduino
 Copy code
 http://localhost:8501
-🔄 Application Flow
-Upload a job description
-
-Upload one or more resumes
-
-Text is extracted from documents
-
-Resume content is evaluated against the job description
-
-Results are displayed with scores and explanations
-
-⚠️ Limitations
-Supports only text-based PDFs and DOCX files
-
-Requires an internet connection for LLM evaluation
-
-LLM outputs may vary slightly between runs
-
-📌 Future Improvements
-OCR support for scanned and image-based documents
-
-CSV export of screening results
-
-Multi-language support
-
-Authentication and access control
