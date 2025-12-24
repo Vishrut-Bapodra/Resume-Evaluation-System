@@ -53,6 +53,14 @@ This project provides a simple web-based interface where users can upload a job 
 
 ---
 
+## 📷 Images
+<img width="1366" height="681" alt="Screenshot 2025-12-24 165202" src="https://github.com/user-attachments/assets/c07eebc9-4911-4542-9939-20f7b3d38811" />
+<img width="1365" height="684" alt="Screenshot 2025-12-24 165125" src="https://github.com/user-attachments/assets/dc106e86-1b9c-4381-989e-572949fb85fe" />
+<img width="1365" height="683" alt="Screenshot 2025-12-24 165104" src="https://github.com/user-attachments/assets/0835f7ae-cd69-4ac5-b693-26d66cb40a44" />
+<img width="1363" height="685" alt="Screenshot 2025-12-24 165045" src="https://github.com/user-attachments/assets/ffcff08c-1809-414b-b0c3-c761f4f513eb" />
+
+---
+
 ### 📥 Installation
 
 1. **Clone the repository**
