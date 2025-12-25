@@ -1,4 +1,4 @@
-# 📄 Resume Screening System
+# 📄 Resume Evaluation System
 
 A resume screening system built with **Streamlit** that analyzes resumes and job descriptions in PDF and DOCX formats. The system uses **LLM-based reasoning via the OpenRouter API** to evaluate candidate fit and generate clear, explainable insights.
 
