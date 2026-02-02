@@ -67,19 +67,19 @@ This project provides a simple web-based interface where users can upload a job 
     ```bash
     git clone https://github.com/<your-username>/<your-repo-name>.git
     cd <your-repo-name>
-2. Create and activate a virtual environment
+2. **Create and activate a virtual environment**
    ```bash
     python -m venv rcs-venv
     rcs-venv\Scripts\activate
 
-3. Install dependencies
+3. **Install dependencies**
     ```bash
     pip install -r requirements.txt
 
-4. Configuration
+4. **Configuration**
 Create a .env file in the project root:
 OPENROUTER_API_KEY=your_api_key_here
 
-5. Running the Application
+5. **Running the Application**
     ```bash
     streamlit run frontend/app.py
