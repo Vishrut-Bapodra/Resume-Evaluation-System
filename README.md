@@ -64,32 +64,22 @@ This project provides a simple web-based interface where users can upload a job 
 ### 📥 Installation
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-Create and activate a virtual environment
+    ```bash
+    git clone https://github.com/<your-username>/<your-repo-name>.git
+    cd <your-repo-name>
+2. Create and activate a virtual environment
+   ```bash
+    python -m venv rcs-venv
+    rcs-venv\Scripts\activate
 
-bash
-Copy code
-python -m venv rcs-venv
-rcs-venv\Scripts\activate
-Install dependencies
+3. Install dependencies
+    ```bash
+    pip install -r requirements.txt
 
-bash
-Copy code
-pip install -r requirements.txt
-⚙️ Configuration
+4. Configuration
 Create a .env file in the project root:
-
-env
-Copy code
 OPENROUTER_API_KEY=your_api_key_here
-▶️ Running the Application
-bash
-Copy code
-streamlit run frontend/app.py
-Open your browser at:
 
-arduino
-Copy code
-http://localhost:8501
+5. Running the Application
+    ```bash
+    streamlit run frontend/app.py
