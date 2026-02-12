@@ -78,7 +78,8 @@ This project provides a simple web-based interface where users can upload a job 
 
 4. **Configuration**
 Create a .env file in the project root:
-OPENROUTER_API_KEY=your_api_key_here
+    ```bash
+   OPENROUTER_API_KEY=your_api_key_here
 
 5. **Running the Application**
     ```bash
