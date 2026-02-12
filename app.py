@@ -4,7 +4,6 @@ from pathlib import Path
 from backend import (
     save_uploaded_file,
     extract_text,
-    needs_ocr,
     clean_text,
 )
 from backend import evaluate_resume
@@ -55,10 +54,6 @@ if run_button:
         jd_path = save_uploaded_file(jd_file)
         jd_text_raw = extract_text(jd_path)
 
-        if needs_ocr(jd_text_raw):
-            st.warning("Job Description appears to be scanned. OCR not implemented yet.")
-            st.stop()
-
         jd_text = clean_text(jd_text_raw)
 
     results = []
@@ -69,12 +64,6 @@ if run_button:
             try:
                 resume_path = save_uploaded_file(resume_file)
                 resume_text_raw = extract_text(resume_path)
-
-                if needs_ocr(resume_text_raw):
-                    st.warning(
-                        f"{resume_file.name} appears to be scanned. OCR not implemented yet."
-                    )
-                    continue
 
                 resume_text = clean_text(resume_text_raw)
 
@@ -121,3 +110,4 @@ if run_button:
 
 else:
     st.info("Upload a Job Description and resumes from the sidebar to begin.")
+
