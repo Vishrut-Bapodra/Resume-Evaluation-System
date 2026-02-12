@@ -70,17 +70,6 @@ def extract_text(file_path: Path) -> str:
     
     return ""
 
-# ------------------------------------------------
-# OCR DETECTION
-# ------------------------------------------------
-
-def needs_ocr(extracted_text: str, min_length: int = 200) -> bool:
-    if not extracted_text:
-        return True
-
-    return len(extracted_text.strip()) < min_length
-
-
 
 # ------------------------------------------------
 # Text Cleaning
@@ -94,5 +83,6 @@ def clean_text(text: str) -> str:
     text = text.lower()
     text = re.sub(r"\s+", " ", text)
     text = re.sub(r"[^\x00-\x7F]+", " ", text)
+
 
     return text.strip()
