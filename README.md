@@ -77,7 +77,7 @@ This project provides a simple web-based interface where users can upload a job 
     pip install -r requirements.txt
 
 4. **Configuration**
-Create a .env file in the project root:
+- Create a .env file in the project root:
     ```bash
    OPENROUTER_API_KEY=your_api_key_here
 
